@@ -8,11 +8,12 @@ class A01{
 	}
 	void start()
 	{
-		Scanner s = enw Scanner(System.in);
+		Scanner s = new Scanner(System.in);
 		System.out.print("나이를 입력 : ");
 		int year = s.nextInt();
 		this.age = 2016 - year + 1;
-	}
+		print();
+}
 
 	void print(){
 		if(age < 20)
